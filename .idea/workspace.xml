@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a5e3369-d577-4af5-aad9-752f10a969d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features1.npy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features12.npy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features2.npy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features4.npy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features8.npy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labels1.npy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labels12.npy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labels2.npy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labels4.npy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labels6.npy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labels8.npy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataTransform.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tut.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features.npy" beforeDir="false" afterPath="$PROJECT_DIR$/features6.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/label.npy" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +33,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.dataTransform">
+  <component name="RunManager" selected="Python.Model">
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ScienceProjectTensorFlow" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,8 +122,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dataTransform" />
         <item itemvalue="Python.Model" />
+        <item itemvalue="Python.dataTransform" />
         <item itemvalue="Python.Main" />
         <item itemvalue="Python.Tut" />
       </list>
@@ -171,10 +153,23 @@
       <option name="presentableId" value="Default" />
       <updated>1575579159494</updated>
     </task>
+    <task id="LOCAL-00001" summary="Got algorithm working, with best accuracy that I understood. Created all files with data&#10;Only took 3 days">
+      <created>1576284735546</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576284735546</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Got algorithm working, with best accuracy that I understood. Created all files with data&#10;Only took 3 days" />
+    <option name="LAST_COMMIT_MESSAGE" value="Got algorithm working, with best accuracy that I understood. Created all files with data&#10;Only took 3 days" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Inspections" timestamp="1575579211424">
@@ -193,34 +188,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576273446051" />
-    <state x="612" y="28" key="CommitChangelistDialog2" timestamp="1576094477414">
+    <state x="612" y="28" key="CommitChangelistDialog2" timestamp="1576284727296">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="612" y="28" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576094477414" />
+    <state x="612" y="28" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576284727296" />
     <state x="184" y="85" key="DiffContextDialog" timestamp="1576094465316">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="85" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576094465316" />
-    <state width="1899" height="281" key="GridCell.Tab.0.bottom" timestamp="1576284518092">
+    <state width="1899" height="281" key="GridCell.Tab.0.bottom" timestamp="1577117589096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576284518092" />
-    <state width="1899" height="281" key="GridCell.Tab.0.center" timestamp="1576284518092">
+    <state width="1899" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577117589096" />
+    <state width="1899" height="281" key="GridCell.Tab.0.center" timestamp="1577117589095">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576284518092" />
-    <state width="1899" height="281" key="GridCell.Tab.0.left" timestamp="1576284518092">
+    <state width="1899" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577117589095" />
+    <state width="1899" height="281" key="GridCell.Tab.0.left" timestamp="1577117589095">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576284518092" />
-    <state width="1899" height="281" key="GridCell.Tab.0.right" timestamp="1576284518092">
+    <state width="1899" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577117589095" />
+    <state width="1899" height="281" key="GridCell.Tab.0.right" timestamp="1577117589096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576284518092" />
-    <state x="461" y="179" key="SettingsEditor" timestamp="1575579559766">
+    <state width="1899" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577117589096" />
+    <state x="461" y="179" key="SettingsEditor" timestamp="1576287589689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="179" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575579559766" />
+    <state x="461" y="179" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576287589689" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1576284752345">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1576284752345" />
     <state x="767" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576284656299">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
